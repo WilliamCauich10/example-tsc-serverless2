@@ -1,0 +1,8 @@
+#
+# description: Archivo que contiene las deficiones de cada lambda
+# author: Rafael Cetina
+# creationDate: 13 de Diciembre del 2021
+#
+#  lambdas
+- '${file(./src/lambdas/usuarios/usuarios.serverless.yml)}'
+# - '${file(./src/lambdas/programs/programs.serverless.yml)}'

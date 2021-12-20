@@ -1,0 +1,28 @@
+#
+# description: Configuracion de archivos que se excluyen del repositorio
+# author: Rafael Cetina
+# creation: Date 13 de Diciembre del 2021
+#
+
+# files
+secrets.dev.yml
+dbconfigs.json
+secrets.json
+env.yml
+serverless.yml
+
+# package directories
+node_modules
+jspm_packages
+layer
+
+# Serverless directories
+.serverless
+
+# NodeJS directories
+.build
+
+# editors directories
+.idea
+.vscode
+
